@@ -1,0 +1,40 @@
+html {
+    image-rendering: pixelated;
+    cursor: url("cursor/pointer.cur")0 0, auto;
+}
+body {
+    background-color: #000000;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6, p {
+    color: #ffffff;
+}
+p {
+    font-size: 18px;
+}
+a {
+    color: #00ffff;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    cursor: url("cursor/link.cur")6 0, auto;
+}
+a:hover {
+    color: #007575;
+}
+.ring {
+    position: fixed;
+    background-image: url(ring.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 2048px;
+    height: 2048px;
+    animation: spin 60s linear infinite;
+}
+@keyframes spin {
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: 360deg;
+    }
+}
