@@ -22,7 +22,7 @@ a:hover {
     color: #007575;
 }
 hr {
-    border-width: 0px;
+    border-width: 0;
     width: 4px;
     background-size: 400% 400%;
     background: repeating-linear-gradient(to right, #00ffff, #000000, #00ffff);
