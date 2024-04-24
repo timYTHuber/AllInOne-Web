@@ -1,6 +1,6 @@
 html {
     image-rendering: pixelated;
-    cursor: url("cursor/pointer.cur")0 0, auto;
+    cursor: url("pointer.cur")0 0, auto;
 }
 body {
     background-color: #000000;
@@ -16,7 +16,7 @@ a {
     color: #00ffff;
     text-decoration: none;
     transition: 0.3s ease-in-out;
-    cursor: url("cursor/link.cur")6 0, auto;
+    cursor: url("link.cur")6 0, auto;
 }
 a:hover {
     color: #007575;
