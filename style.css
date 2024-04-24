@@ -21,6 +21,18 @@ a {
 a:hover {
     color: #007575;
 }
+hr {
+    background: repeating-linear-gradient(to right, #00ffff, #000000, #00ffff);
+    animation: hr 4s linear infinite;
+}
+@keyframes hr {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 3200px 0;
+    }
+}
 .ring {
     position: fixed;
     background-image: url(ring.png);
