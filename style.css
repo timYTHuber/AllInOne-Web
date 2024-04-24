@@ -23,8 +23,7 @@ a:hover {
 }
 hr {
     border-width: 0;
-    width: 4px;
-    background-size: 400% 400%;
+    height: 2px;
     background: repeating-linear-gradient(to right, #00ffff, #000000, #00ffff);
     animation: hr 4s linear infinite;
 }
