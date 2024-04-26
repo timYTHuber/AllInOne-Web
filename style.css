@@ -56,5 +56,5 @@ hr {
     }
 }
 img:hover {
-    transform: rotate(var(x) * 1, var(y) * 1);
+    transform: rotateX(var(x) * 1) rotateY(var(y) * 1);
 }
