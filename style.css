@@ -55,3 +55,6 @@ hr {
         rotate: 360deg;
     }
 }
+img:hover {
+    transform: rotate(var(x) * 1, var(y) * 1);
+}
